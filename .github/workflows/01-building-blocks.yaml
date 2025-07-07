@@ -6,6 +6,7 @@ jobs:
     steps:
       - name: Say hello
         run: echo "Hello, World!"
+      - run: echo "run without name key"
   echo-goodbye:
     runs-on: ubuntu-latest
     steps:
